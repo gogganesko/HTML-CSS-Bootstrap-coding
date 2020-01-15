@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" content="width=device-width, initial-scale=1">
+	<title>Typography</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="lightzoom/style.css" type="text/css">
+</head>
+
+<body>
+	<header>
+		<div class="mainheader">
+			<div class="logo">				
+				<img src="img/newspaper.png" alt="">
+				<p><a href="">Типография на Ленина</a></p>					 
+			</div>
+			<div class="contacts">
+				<div class="phone"><img src="img/phone.png" alt="">
+				88005553535</div>
+				<div class="loc"><img src="img/location.png" alt="">
+				Ул. Ленина, д.11</div>
+				
+			</div>
+			<div class="social">
+				<div class="vk">
+    				<a href="#" target="_blank"><i class="fa fa-vk fa-2x"></i></a> 
+				</div>
+				<div class="odnoklassniki">
+    				<a href="#" target="_blank"><i class="fa fa-odnoklassniki fa-2x"></i></a>
+				</div>
+				<div class="facebook">
+    				<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+				</div>
+				<div class="instagram">
+    				<a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				</div>
+			</div>
+			<div class="login">
+				<img src="img/user.png" alt="">
+				<p><a href="#">Гость</a></p>
+				<a href="authorization.html"><button class="loginbutton" type="button">Войти</button></a>
+			</div>
+		</div>
+	</header>
+	<div class="content prflcnt">
+	<div class="topnav" id="myTopnav">
+		  <a href="index.html">Главная</a>
+		  <a href="catalog.html" class="activem">Каталог</a>
+		  <a href="sales.html">Акции</a>
+		  <a href="payment.html">Оплата</a>
+		  <a href="reviews.html">Отзывы</a>
+		  <a href="contacts.html">Контакты</a>
+		  <a href="workers.html">Работники</a>
+		  <a href="profile.html">Заказы</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	    <i class="fa fa-bars"></i>
+	  </a>
+	</div>
+	<ul class="breadcrumb">
+	  <li><a href="index.html">Главная</a></li>
+	  <li class="activem">Заказы</li>
+	</ul>
+	<div class="catalogtitle"><h1>Клиентов Клиент Клиентович</h1></div>
+	<div class="tabs">
+		    <input type="radio" name="inset" value="" id="tab_1" checked>
+		    <label for="tab_1">Заказы</label>
+
+		    <input type="radio" name="inset" value="" id="tab_2">
+		    <label for="tab_2">О себе</label>
+		   
+		    <div id="txt_1">
+		        <div class="filtersearch">
+				 	<fieldset>
+				 		<legend>Фильтр и поиск <a href="#" class="hide">(скрыть)</a><a href="#" class="show">(показать)</a></legend>
+				 		<div class="inp">
+					<input type="date" name="calendar">
+					<span>-</span>
+					<input type="date" name="calendar">		
+					<input type="text" placeholder="ID">
+					</div>
+					<div class="sel">
+					<select>
+					  <option>Печать на кружках</option>
+					  <option>Печать визиток</option>
+					  <option>Печать принтов</option>
+					</select>
+					<select>
+					  <option>Сначала дорогие</option>
+					  <option>Сначала дешевые</option>		  
+					</select>
+					</div>
+					<div class="findbtn"><button>Найти</button></div>
+					</fieldset>
+	 			</div>
+	 			<div class="ordercards">
+								<div class="card_container">
+								  <img src="img/service.jpg" alt="Avatar" class="card_imag">
+								  <div class="vertical-line"/></div>
+								  <p><span>Печать на кружке</span></p>
+								  <p>Последняя активность: 13.10 17:42
+								  </p>
+								  <p>Статус: в обработке</p>
+								  <p>Стоимоть: 150 руб.</p>
+								  <p>Количество: 6 шт.</p>								  
+								  <button class='del'>Удалить</button>
+								  <button class='pay'>Оплатить</button>
+								  <a href="order.html"><button class='more'>Подробнее</button></a>
+								</div>
+									<div class="card_container">
+								  <img src="img/service.jpg" alt="Avatar" class="card_imag">
+								  <div class="vertical-line"/></div>
+								  <p><span>Печать на кружке</span></p>
+								  <p>Последняя активность: 13.10 17:42
+								  </p>
+								  <p>Статус: в обработке</p>
+								  <p>Стоимоть: 150 руб.</p>
+								  <p>Количество: 6 шт.</p>
+								  <button class='del'>Удалить</button>
+								  <button class='pay'>Оплатить</button>
+								   <a href="order.html"><button class='more'>Подробнее</button></a>
+								</div>
+									<div class="card_container">
+								  <img src="img/service.jpg" alt="Avatar" class="card_imag">
+								  <div class="vertical-line"/></div>
+								  <p><span>Печать на кружке</span></p>
+								  <p>Последняя активность: 13.10 17:42
+								  </p>
+								  <p>Статус: в обработке</p>
+								  <p>Стоимоть: 150 руб.</p>
+								  <p>Количество: 6 шт.</p>
+								  <button class='del'>Удалить</button>
+								  <button class='pay'>Оплатить</button>
+								   <a href="order.html"><button class='more'>Подробнее</button></a>
+								</div>
+ 
+		    </div>
+		    		<div class="pagination">
+					  <a href="#">&laquo;</a>
+					  <a href="#">1</a>
+					  <a class="active" href="#">2</a>
+					  <a href="#">3</a>
+					  <a href="#">4</a>
+					  <a href="#">5</a>
+					  <a href="#">6</a>
+					  <a href="#">&raquo;</a>
+					</div>
+		    </div>
+		    <div id="txt_2">
+		        <div class="information">
+				 	<fieldset>
+				 		<legend>Оснонвные сведения</legend>
+				 		<div class="fieldcontent">				 		
+				 		<p>Тип клиента:<label for="">Физическое лицо</label></p>
+				 		<p>ФИО:<label for="">Клиентов Клиент Клиентович</label></p>
+				 		<p>Дата рождения:<label for="">13.10.1997</label></p>
+				 		<p>Номер телефона:<label for="">88005553535</label></p>
+				 		<p>e-mail:<label for="">ilovekrujki@mail.ru</label></p>
+				 		<div class="chlogbtn"><button>Смена логина</button></div>
+				 		<div class="chpasbtn"><button>Смена пароля</button></div>
+				 		</div>
+					</fieldset>
+	 			</div>		    
+	 		</div>		    
+	</div>
+
+		</div>
+	<footer>
+		<div class="mainfooter">			
+			<div class="logo">
+				<img src="img/newspaper.png" alt="">
+				<p>Типография на Ленина</p>
+			</div>
+			<div class="contacts">
+				<div class="phone"><img src="img/phone.png" alt="">
+				88005553535</div>
+				<div class="loc"><img src="img/location.png" alt="">
+				Ул. Ленина, д.11</div>
+			</div>
+				
+			<div class="social">
+				<div class="vk">
+    				<a href="#" target="_blank"><i class="fa fa-vk fa-2x"></i></a> 
+				</div>
+				<div class="odnoklassniki">
+    				<a href="#" target="_blank"><i class="fa fa-odnoklassniki fa-2x"></i></a>
+				</div>
+				<div class="facebook">
+    				<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+				</div>
+				<div class="instagram">
+    				<a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+ <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script>
+$(document).ready(function(){
+  $(".filtersearch .hide").click(function(){
+	$(".hide").toggle()
+	$(".show").css('display', 'inline-block')
+    $("fieldset input,fieldset select,fieldset button, fieldset span").hide();
+  });
+});
+$(document).ready(function(){
+  $(".filtersearch .show").click(function(){
+	$(".show").toggle()
+	$(".hide").toggle()
+    $("fieldset input,fieldset select,fieldset button, fieldset span").show();
+  });
+});
+</script>
+</body>
+
+</html>

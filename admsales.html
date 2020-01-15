@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/admin.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Typography</title>
+  </head>
+  <body>
+	<header>
+		<div class="mainheader">
+			<div class="logo">				
+				<img src="img/newspaper.png" alt="">
+				<p><a href="">Типография на Ленина</a></p>					 
+			</div>
+			<div class="contacts">
+				<div class="phone"><img src="img/phone.png" alt="">
+				88005553535</div>
+				<div class="loc"><img src="img/location.png" alt="">
+				Ул. Ленина, д.11</div>
+				
+			</div>
+			<div class="social">
+
+				<div class="vk">
+    				<a href="#" target="_blank"><i class="fa fa-vk fa-2x"></i></a> 
+				</div>
+				<div class="odnoklassniki">
+    				<a href="#" target="_blank"><i class="fa fa-odnoklassniki fa-2x"></i></a>
+				</div>
+				<div class="facebook">
+    				<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+				</div>
+				<div class="instagram">
+    				<a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				</div>
+			</div>
+			<div class="login">
+				<img src="img/user.png" alt="">
+				<p><a href="#">Гость</a></p>
+				<a href="authorization.html"><button class="loginbutton" type="button">Войти</button></a>
+			</div>
+		</div>
+	</header>
+	<div class="content srvclst">
+		<div class="topnav" id="myTopnav">
+			  <a href="admworkers.html">Работники</a>
+			  <a href="admclients.html">Клиенты</a>
+			  <a href="admservices.html">Каталог</a>
+			  <a href="admsales.html">Акции</a>
+			  <a href="admorders.html">Заказы</a>
+			  <a href="admreviews.html">Отзывы</a>	
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		 <ul class="breadcrumb">
+			  <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+			  <li class="breadcrumb-item"><a href="admorders.html">Администрирование</a></li>
+			  <li class="breadcrumb-item activem">Акции</li>
+		 </ul> 
+		 <div class="titlebtn">
+		 <h1>Акции</h1>
+		 <button type="button" class="btn btn-outline-primary btn-lg">Добавить</button>
+		 </div>
+		   <div class="filtersearch">
+		 	<fieldset class="border p-1">
+			<legend class="w-auto">Фильтр и поиск</legend>
+			  <form>
+				<div class="input-group mb-1">
+				  <input type="text" class="form-control" placeholder="Название	" aria-label="Text input with dropdown button">
+	              <select class="custom-select" id="inputGroupSelect04">
+				    <option selected>По алфавиту</option>
+				    <option value="1">В обратном порядке</option>
+				  </select>	              
+				</div>
+				<div class="input-group mb-1">
+				<input type="text" class="form-control" placeholder="ID" aria-label="Text input with dropdown button">
+				 <select class="custom-select" id="inputGroupSelect04">
+				    <option selected>По возрастанию ID</option>
+				    <option value="1">По убыванию ID</option>
+				  </select>	
+
+			  
+				<div class="input-group mt-1 justify-content-center">
+				  <select class="custom-select col-4" id="inputGroupSelect04">
+				    <option selected>Число/стр.</option>
+				    <option value="1">3</option>
+				    <option value="2">6</option>
+				    <option value="3">12</option>
+				  </select>
+				  	<input type="date"  class="col-3" name="calendar">
+				    <input type="date"  class="col-3" name="calendar">
+				    <button class="btn btn-outline-primary btn-md" type="button">Найти</button>
+				</div>
+				</div>
+			  </form>
+		 	</fieldset>
+		 </div>	
+
+<div class="card-columns mt-3">
+    <div class="card">
+    	<img class="card-img-top" src="img/sale1.jpg" alt="Card image">
+    <div class="card-body text-center">
+      <h2 class="card-title"><a href="admsale.html" class="ttllink">Две кружки по цене одной</a><a href="admeditsale.html"  class="btn btn-outline-secondary ml=1">Редактировать</a></h2> 
+      <p class="card-text">Описание: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ipsam deleniti eligendi nobis id rem, ratione praesentium mollitia asperiores eos at totam incidunt amet, aliquid nisi vitae, magni, cum sint?</p>
+      <p class="card-text"><a href="admsale.html"  class="btn btn-outline-primary">Подробнее</a></p>
+      <input class="form-check-input" type="checkbox">Показывать        
+    </div>
+  </div>
+    <div class="card">
+    	<img class="card-img-top" src="img/sale1.jpg" alt="Card image">
+    <div class="card-body text-center">
+      <h2 class="card-title"><a href="admsale.html" class="ttllink">Две кружки по цене одной</a><a href="admeditsale.html"  class="btn btn-outline-secondary ml=1">Редактировать</a></h2> 
+      <p class="card-text">Описание: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ipsam deleniti eligendi nobis id rem, ratione praesentium mollitia asperiores eos at totam incidunt amet, aliquid nisi vitae, magni, cum sint?</p>
+      <p class="card-text"><a href="admsale.html"  class="btn btn-outline-primary">Подробнее</a></p>
+      <input class="form-check-input" type="checkbox">Показывать   
+
+    </div>
+  </div>
+    <div class="card">
+    	<img class="card-img-top" src="img/sale1.jpg" alt="Card image">
+    <div class="card-body text-center">
+      <h2 class="card-title"><a href="admsale.html" class="ttllink">Две кружки по цене одной</a><a href="admeditsale.html"  class="btn btn-outline-secondary ml=1">Редактировать</a></h2> 
+      <p class="card-text">Описание: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ipsam deleniti eligendi nobis id rem, ratione praesentium mollitia asperiores eos at totam incidunt amet, aliquid nisi vitae, magni, cum sint?</p>
+      <p class="card-text"><a href="admsale.html"  class="btn btn-outline-primary">Подробнее</a></p>
+      <input class="form-check-input" type="checkbox">Показывать       
+    </div>
+  </div>
+
+</div>
+			<nav aria-label="Page navigation example">
+			  <ul class="pagination justify-content-center">
+			    <li class="page-item disabled">
+			      <a class="page-link" href="#" tabindex="-1">Назад</a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item"><a class="page-link" href="#">3</a></li>
+			    <li class="page-item">
+			      <a class="page-link" href="#">Дальше</a>
+			    </li>
+			  </ul>
+			</nav>
+</div>
+
+	<footer>
+		<div class="mainfooter">			
+			<div class="logo">
+				<img src="img/newspaper.png" alt="">
+				<p>Типография на Ленина</p>
+			</div>
+			<div class="contacts">
+				<div class="phone"><img src="img/phone.png" alt="">
+				88005553535</div>
+				<div class="loc"><img src="img/location.png" alt="">
+				Ул. Ленина, д.11</div>
+			</div>
+				
+			<div class="social">
+				<div class="vk">
+    				<a href="#" target="_blank"><i class="fa fa-vk fa-2x"></i></a> 
+				</div>
+				<div class="odnoklassniki">
+    				<a href="#" target="_blank"><i class="fa fa-odnoklassniki fa-2x"></i></a>
+				</div>
+				<div class="facebook">
+    				<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+				</div>
+				<div class="instagram">
+    				<a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				</div>
+			</div>			
+		</div>
+	</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script>
+	function myFunction() {
+	    var x = document.getElementById("myTopnav");
+	    if (x.className === "topnav") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "topnav";
+	    }
+	}
+ </script>
+  </body>
+</html>
